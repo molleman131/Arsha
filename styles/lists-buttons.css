@@ -1,0 +1,307 @@
+input{
+  display: flex;
+  flex: 1;
+  width: 100%;
+  border-radius: .5em;
+  border: 1.5px solid #979797;
+  padding: 1em;
+  opacity: 0.85;
+}
+
+input:focus{
+  outline: none !important;
+  border: 1.5px #3e9ede solid;
+}
+
+textarea{
+  height: 100%;
+  border-radius: .5em;
+  border: 1.5px solid #979797;
+  padding: 1em;
+  opacity: 0.85
+}
+
+textarea:focus{
+  outline: none !important;
+  border: 1.5px #3e9ede solid;
+}
+
+ol{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  
+}
+
+ul{
+  list-style-type: none;
+  gap: 0em 1em;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color:#eeeeee;
+}
+
+a:hover{
+  color: #9ad8f5;
+}
+
+
+.get-started{
+  display: flex;
+  border-radius: 2em;
+  padding: .5em 1em;
+  border: none;
+  background-color: #3e9ede;
+  font-size: 1.1em;
+  color: #eeeeee;
+  
+}
+
+.get-started:hover{
+  background-color: #001d45;
+  color: #eeeeee;
+}
+
+.top-buttons{
+  display: flex;
+  width: 100%;
+  gap: 1em
+}
+
+.watch-video{
+  border: none;
+  font-size: 1.1em;
+  border-radius: 2em;
+  padding: .5em 1em;
+  border: none;
+  background-color: #3e9ede;
+  color: #eeeeee
+}
+
+button:hover{
+  color: #eeeeee;
+  background-color: #001d45;
+}
+
+
+
+.about-list{
+  list-style-image: url("../img/icon/server-cloud.png");
+  margin-left: 1.5em;
+  height: 2.1em;
+}
+
+.about-button{
+   border: none;
+  font-size: 1.1em;
+  border-radius: 2em;
+  padding: .5em 1em;
+  background-color: #3e9ede;
+  color: #eeeeee
+}
+
+.about-button:hover{
+  color: #eeeeee;
+  background-color: #001d45
+}
+
+
+.company-box{
+  display: flex;
+  flex-direction: column;
+  gap: 2em
+}
+
+.company-list{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.company{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background-color: white;
+  border-radius: .5em;
+  padding: 1em;
+  box-shadow: #979797 1px 1px .3em;
+}
+
+.company-text{
+  
+}
+
+.company-question{
+  font-weight: 800;
+  color: #3e9ede;
+  font-size: 1.25em;
+}
+
+.services-list-box{
+  display: flex;
+  gap: 1.5em;
+}
+
+.services-list{
+  display: flex;
+  background-color: #ffffff;
+  width: 20em;
+  height: 20em;
+  flex-wrap: wrap;
+  box-shadow: .3em .3em .5em .2em #eeeeee;
+  border: 1.5px #eeeeee solid;
+  border-radius: 1em
+}
+
+.service{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: .5em;
+  padding: 2em;
+}
+
+.services-img{
+  display: flex;
+  width: 3em
+}
+
+.service-title:hover{
+  color: #3e9ede;
+}
+
+.call-button{
+  border: none;
+  font-size: 1.5em;
+  border-radius: 2em;
+  background-color: #3e9ede;
+  color: #eeeeee;
+  font-weight: 800;
+  width: 15em;
+}
+
+.call-button:hover{
+  background-color: #001d45;
+}
+
+.perk-yes{
+  list-style-image: url("../img/icon/double-tick.png");
+}
+
+.perk-no{
+  list-style-image: url("../img/icon/x.png");
+  color: #979797;
+  opacity: 0.85
+}
+
+.plan-button{
+  border: none;
+  font-size: 1.1em;
+  border-radius: 2em;
+  padding: .5em 1em;
+  background-color: #3e9ede;
+  color: #eeeeee;
+  margin-top: .5em;
+}
+
+
+
+.questions{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background-color:
+}
+
+.faq{
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  background-color: white;
+  border-radius: .5em;
+  padding: 1em;
+  box-shadow: #979797 1px 1px .3em;
+}
+
+.faq-question{
+  font-weight: 800;
+  color: #3e9ede;
+  font-size: 1.25em
+}
+
+.faq-answer{
+  margin-top: -1.5em;
+}
+
+.contact-items-list{
+  list-style-image: url ("../img/icons/location.png");
+  
+}
+
+.send-message{
+   border: none;
+  font-size: 1em;
+  border-radius: 2em;
+  padding: .5em 1em;
+  background-color: #3e9ede;
+  color: #eeeeee;
+  
+}
+
+.newsletter-subscribe{
+  width: 8em;
+  height: 2.5em;
+  border: none;
+  font-size: 1.1em;
+  border-radius: 2em;
+  background-color: #3e9ede;
+  color: #eeeeee;
+  position: absolute;
+  
+}
+
+.newsletter-input{
+  border-radius: 2em;
+  position:relative;
+  left: 10.5em;
+  box-shadow: #979797 1px 1px .2em;
+  top: -.1em;
+   
+}
+
+.social-media-list{
+  display: flex;
+  list-style: none;
+}
+
+
+.links-list{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  height: 15em
+}
+
+.links-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: .25em
+}
+
+.link{
+ color: #979797;
+  list-style-image: url("../img/icon/greater-than.png")
+}
+
+
+
+.links{
+  display: flex;
+  flex-direction: column;
+  gap: 1em
+}

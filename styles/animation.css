@@ -1,0 +1,20 @@
+@keyframes bar-html{
+  0%{ width: 0;}
+  100%{ width: 100%;}
+}
+
+@keyframes bar-css{
+  0%{ width: 0;}
+  100%{ width: 90%;}
+}
+
+@keyframes bar-js{
+  0%{ width: 0;}
+  100%{ width: 75%;};
+}
+
+@keyframes bar-photoshop{
+  0%{ width: 0;}
+  100%{ width: 55%;}
+}
+

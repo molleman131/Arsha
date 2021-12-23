@@ -1,0 +1,76 @@
+
+.stats{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.html-stats-box{
+  display: flex;
+  width: 41em;
+}
+
+.percent{
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.bar{
+  background-color: #3e9ede;
+  color: #3e9ede;
+  border-radius: .25em;
+  margin-top: -1em;
+  position: relative;
+  animation-name: bar-html;
+  animation: bar-html 1.5s forwards;
+}
+
+.css-stats-box{
+  display: flex;
+  width: 90%;
+}
+
+.css-bar{
+  background-color: #3e9ede;
+  color: #3e9ede;
+  border-radius: .25em;
+  margin-top: -1em;
+  width: 90%;
+  position: relative;
+  animation-name: bar-css;
+  animation: bar-css 1.5s forwards;
+  
+}
+
+.js-stats-box{
+  display: flex;
+  width: 75%;
+}
+
+.js-bar{
+  background-color: #3e9ede;
+  color: #3e9ede;
+  border-radius: .25em;
+  margin-top: -1em;
+  width: 75%;
+  position: relative;
+  animation-name: bar-js;
+  animation: bar-js 1.5s forwards;
+}
+
+.photoshop-box{
+  display: flex;
+  width: 55%;
+}
+
+.photoshop-bar{
+  background-color: #3e9ede;
+  color: #3e9ede;
+  border-radius: .25em;
+  margin-top: -1em;
+  width: 55%;
+  position: relative;
+  animation-name: bar-photoshop;
+  animation: bar-photoshop 1.5s forwards;
+}
